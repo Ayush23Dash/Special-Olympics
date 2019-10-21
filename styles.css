@@ -1,0 +1,38 @@
+/* LOGO */
+.logo{
+  width:16rem;
+  height:3.6rem;
+  margin-left: 2rem;
+}
+
+.nav-item{
+  margin: .8rem;
+color: black;
+font-weight: bold;
+}
+
+.navbar-nav{
+  margin: 0 2rem;
+
+}
+.form-inline{
+  margin:0 .5rem;
+}
+.btn{
+
+margin-left: .3rem;
+font-family: verdana;
+padding:0.6rem  2.2rem;
+font-size:0.8rem;
+font-weight: 900;
+background-color:#ED1C24;
+}
+
+/* DROPDOWN */
+.A{
+  display: none;
+}
+.A a:hover{
+  display: block;
+  color: red;
+}
