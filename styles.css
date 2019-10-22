@@ -1,4 +1,4 @@
-/* LOGO */
+/* NAVBAR START */
 .logo{
   width:16rem;
   height:3.6rem;
@@ -20,19 +20,56 @@ font-weight: bold;
 }
 .btn{
 
-margin-left: .3rem;
+margin-left: 4rem;
 font-family: verdana;
 padding:0.6rem  2.2rem;
 font-size:0.8rem;
 font-weight: 900;
-background-color:#ED1C24;
+  background-color:#ED1C24;
+}
+/* NAVBAR END */
+
+/* DROPDOWN START */
+
+/* CAROUSELS START */
+.carousel-item{
+  /* height: 000px; */
 }
 
-/* DROPDOWN */
-.A{
-  display: none;
+/* STAT CIRCLES START*/
+.circle1{
+  width:100px;
+  height: 100px;
+  background-color: #06880E  ;
+ margin:auto;
+ border-radius: 100px;
+ text-align: center;
 }
-.A a:hover{
-  display: block;
-  color: red;
+
+.circle2{
+  width:100px;
+  height: 100px;
+  background-color: #CC4647;
+ margin:auto;
+ border-radius: 100px;
+ text-align: center;
 }
+
+.circle3{
+  width:100px;
+  height: 100px;
+  background-color: #ffcc00;
+ margin:auto;
+ border-radius: 100px;
+ text-align: center;
+}
+
+.col-lg-4 p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.p-light{
+  font-weight:lighter;
+}
+/* STATS END */
