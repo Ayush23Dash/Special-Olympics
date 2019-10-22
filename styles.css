@@ -2,11 +2,16 @@
 .logo{
   width:16rem;
   height:3.6rem;
-  margin-left: 2rem;
+  margin:0rem ,1.2rem;
+  display:block;
+  outline: 1px solid #22746b!important
+  border:0;
+ 
 }
 
 .nav-item{
-  margin: .8rem;
+	
+  margin: .6rem;
 color: black;
 font-weight: bold;
 }
@@ -16,7 +21,21 @@ font-weight: bold;
 
 }
 .form-inline{
-  margin:0 .5rem;
+  margin:0 .3rem;
+}
+.fa{
+	display:inline-block;
+	font-weight:bold;
+	font-size:1.5rem;
+	padding:2px;
+
+}
+.fa:hover{
+
+padding:6px;
+border-radius:40px;
+box-shadow: 3px 3px 3px orange;
+
 }
 .btn{
 
