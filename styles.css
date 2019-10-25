@@ -2,24 +2,23 @@
 .logo{
 width:16rem;
 height:3.6rem;
-margin:0rem ,1.2rem;
+margin:0 1.2rem;
 display:block;
 outline: 1px solid #22746b !important;
 border:0;
 
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0,0,0);
+  color: inherit;
 }
 
 
 .nav-item{
 font-size: 14px;
 font-weight: 700;
-color:#303030;
+/* color:#303030; */
 text-align: left;
 margin: .2rem;
-
 color: black;
 letter-spacing: 1px;
 }
@@ -33,10 +32,7 @@ right: 0;
 }
 
 .navbar-nav{
-margin: 0rem 2rem;
-
-
-
+margin: 0 2rem;
 }
 .form-inline{
 margin-left:1.5rem;
@@ -55,15 +51,21 @@ box-shadow: 3px 3px 3px orange;
 
 }
 .btn{
-
-margin-left: 4rem;
-margin-right:0rem;
+margin-left: 9rem;
+margin-right:0;
 font-family: verdana;
 padding:0.8rem  2.2rem;
 font-size:0.8rem;
 font-weight: 900;
 background-color:#ED1C24;
 }
+
+@media only screen and (max-width: 992px){
+  .btn{
+    margin-left: 1.2rem;
+  }
+}
+
 
 /* DROPDOWN START */
 .dropdown{
@@ -107,8 +109,8 @@ width:100%;
  height: 70vh;
 }
 .carousel-control-prev-icon,.carousel-control-next-icon{
-margin-bottom: 0px;
-font-size: 100px;
+margin-bottom: 0;
+font-size: 6.2rem;
 height:100%;
 width:20%;
 opacity: .4;
@@ -202,3 +204,96 @@ input[type="radio"]{
 }
 
 /* DONATION FORM END */
+
+/* ORGANISATION CARDS */
+
+/* ORGANISATION CARDS END */
+
+/* STATISTICAL DATA */
+.statistics{
+  position: relative;
+}
+
+.statistics img{
+  width: 100%;
+  height: auto;
+}
+
+.stat-heading{
+  text-align: center;
+  font-size: 2.25rem;
+  color: #fff;
+  font-family: 'ubuntu';
+  position: relative;
+}
+
+.stat-head{
+margin-left: 43%;
+  position: absolute;
+  top: 3rem ;
+font-weight: bold;
+font-family: 'montserrat';
+}
+
+.stat-inner-heading{
+  color: #ED1C24;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.stat-inner-footer{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.stat1,.stat2,.stat3,.stat4,.stat5,.stat6{
+  background-color: #fff;
+    padding:2rem 4rem;
+    width: 20rem;
+    height: 10rem;
+    text-align: center;
+}
+
+.stat-rectangles1{
+  position: absolute;
+  top: 20%;
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.stat-rectangles2{
+  position: absolute;
+  top: 60%;
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+
+@media only screen and (max-width: 992px)
+{
+  .stat-head{
+  margin-left: 43%;
+}
+.stat1,.stat2,.stat3,.stat4,.stat5,.stat6
+{
+  padding: 1rem;
+  width: 13rem;
+  height: 8rem;
+}
+
+.stat-rectangles1{
+  position: absolute;
+  top: 30%;
+  margin-left: 10%;
+}
+
+.stat-rectangles2{
+  position: absolute;
+  top: 65%;
+  margin-left: 10%;
+}
+}
+/* STATISTICAL DATA END */
