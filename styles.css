@@ -230,7 +230,7 @@ input[type="radio"]{
 .stat-head{
 margin-left: 43%;
   position: absolute;
-  top: 3rem ;
+  top: 6rem ;
 font-weight: bold;
 font-family: 'montserrat';
 }
@@ -257,7 +257,7 @@ font-family: 'montserrat';
 
 .stat-rectangles1{
   position: absolute;
-  top: 20%;
+  top: 24%;
   display: flex;
   justify-content: center;
   margin-left: 20%;
@@ -275,7 +275,8 @@ font-family: 'montserrat';
 @media only screen and (max-width: 992px)
 {
   .stat-head{
-  margin-left: 43%;
+  margin-left: 40%;
+  top:10%;
 }
 .stat1,.stat2,.stat3,.stat4,.stat5,.stat6
 {
@@ -286,14 +287,14 @@ font-family: 'montserrat';
 
 .stat-rectangles1{
   position: absolute;
-  top: 30%;
-  margin-left: 10%;
+  top: 25%;
+  margin-left: 14%;
 }
 
 .stat-rectangles2{
   position: absolute;
   top: 65%;
-  margin-left: 10%;
+  margin-left: 14%;
 }
 }
 /* STATISTICAL DATA END */
