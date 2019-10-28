@@ -1,11 +1,25 @@
-var work = document.getElementById("work");
 
-var dropDown =  document.querySelector(".A");
-var inner = dropDown.innerHTML;
-dropDown.innerHTML = "";
+mybutton = document.getElementById("myBtn");
 
-function hover(){
 
-dropDown.innerHTML = inner;
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
-work.addEventListener("onmouseover",hover);
+
+
+
+function scrollToTop(scrollDuration) {
+    var scrollStep = -window.scrollY / (scrollDuration / 15),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval); 
+    },15);
+}
