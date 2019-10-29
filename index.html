@@ -7,12 +7,15 @@
   <title>Special Olympics Delhi</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="nav.css">
   <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
 
   <!-- NAVBAR START -->
+
+
 
   <nav class="navbar navbar-expand-lg navbar-light  ">
     <a href="index.html">
@@ -22,20 +25,22 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
+         <div class="dropdown">
 
-        <div class="dropdown">
-
-          <a class="nav-item nav-link work" href="work.html">WORK</a>
+          <a class="nav-item nav-link work dropdown-toggle" href="work.html">OUR WORK</a>
 
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            
             <a class="dropdown-item" href="#">Sports & Games</a>
             <a class="dropdown-item" href="#">Health Care</a>
-            <a class="dropdown-item" href="#">Unified School</a>
+          <a class="dropdown-item" href="#">Unified School</a>
             <a class="dropdown-item" href="#">Unified Leadership</a>
+             <a class="dropdown-item" href="#">Unified Sponsership</a>
+          
           </div>
         </div>
         <div class="dropdown">
-          <a class="nav-item nav-link" href="getinvolved.html">GET INVOLVED</a>
+          <a class="nav-item nav-link dropdown-toggle" href="getinvolved.html">GET INVOLVED</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Become Athlete</a>
             <a class="dropdown-item" href="#">Become Volunteer</a>
@@ -45,17 +50,18 @@
           </div>
         </div>
         <div class="dropdown">
-          <a class="nav-item nav-link" href="stories.html">STORIES</a>
+          <a class="nav-item nav-link dropdown-toggle" href="stories.html">STORIES</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
             <a class="dropdown-item" href="#">Our Athlete</a>
             <a class="dropdown-item" href="#">Our Volunteers</a>
             <a class="dropdown-item" href="#">Share the Story</a>
             <a class="dropdown-item" href="#">In the News</a>
+             <a class="dropdown-item" href="#">Our Delhi</a>
           </div>
-        </div>
-        <div class="dropdown">
-          <a class="nav-item nav-link" href="events.html">EVENTS</a>
+         </div>
+         <div class="dropdown ">
+          <a class="nav-item nav-link dropdown-toggle" href="events.html">EVENTS</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Indoor Games</a>
             <a class="dropdown-item" href="#">Outdoor Games</a>
@@ -63,27 +69,28 @@
             <a class="dropdown-item" href="#">Ola Olympiad</a>
             <a class="dropdown-item" href="#">Mega Events</a>
           </div>
-        </div>
-        <div class="dropdown">
-          <a class="nav-item nav-link" href="ftinessprogram.html">FITNESSS PROGRAM</a>
+         </div>
+         <div class="dropdown">
+          <a class="nav-item nav-link dropdown-toggle" href="ftinessprogram.html">FITNESSS PROGRAM</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Excercise & Yoga </a>
             <a class="dropdown-item" href="#">Health Care</a>
             <a class="dropdown-item" href="#">Make heart healthy</a>
             <a class="dropdown-item" href="#">Cario Vascular </a>
+             <a class="dropdown-item" href="#">Fit and Hit </a>
           </div>
         </div>
 
-      </div>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" <span class="search"><i class="fa fa-search fa-lg"></i></span>
+      
+         <form class="form-inline ">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" > <span class="search"><i class="fa fa-search fa-lg"></i></span>
 
-      </form>
+          </form>
       <br></br>
       <button class="btn btn-danger">DONATE</button>
-    </div>
-
-
+   
+</div>
+</div>
   </nav>
   <!-- NAVBAR END -->
 
@@ -337,28 +344,28 @@
   <!-- ORGANISATION CARDS END -->
   <hr>
   <!-- STATISTICAL DATA -->
-  <div class="statistics">
 
-    <div class="stat-heading">
-      <span class="stat-head">Our Reach</span>
-      <img
-        src="https://dotorg.brightspotcdn.com/dims4/default/59f6b15/2147483647/strip/true/crop/1440x720+0+17/resize/1600x800!/format/jpg/quality/90/?url=https%3A%2F%2Fdotorg.brightspotcdn.com%2Fac%2F2e%2F63e9f5a4488595d46b73b5e4dd99%2Fspecial-olympic-y-r-approved-final-hq-round-3-page-12.png"
-        alt="">
-    </div>
+
+   
     <!-- 1st Row -->
-    <div class="row stat-rectangles1 text-center">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-        <div class="stat1">
-          <div class="stat-inner-heading">
-            5,468,333
-          </div>
-          <div class="stat-inner-footer">
-            Athletes
-          </div>
-        </div>
-      </div>
+     <div class="statistics">
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+    
+    
+      <h1 class="stat-heading">Our reach</h1>
+        <div class="row stat-rectangles1 text-center">
+             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-4">
+            <div class="stat1">
+              <div class="stat-inner-heading">
+            5,468,333
+              </div>
+              <div class="stat-inner-footer">
+               Athletes
+              </div>
+           </div>
+           </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-4">
         <div class="stat2">
           <div class="stat-inner-heading">
             106,300
@@ -369,7 +376,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-4">
         <div class="stat3">
           <div class="stat-inner-heading">
             1,151,088
@@ -385,7 +392,7 @@
     <!-- 2nd Row -->
     <div class="row stat-rectangles2 text center">
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-4">
         <div class="stat4">
           <div class="stat-inner-heading">
             193
@@ -396,7 +403,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-4">
         <div class="stat5">
           <div class="stat-inner-heading">
             176,203
@@ -407,7 +414,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-4">
         <div class="stat6">
           <div class="stat-inner-heading">
             17%
@@ -420,12 +427,14 @@
 
     </div>
   </div>
+
+
   <!-- STATISTICAL DATA END -->
   <hr>
   <!--FOOTER-->
 
   <div class="container-fluid footer-start">
-    <br>
+    <br/>
 
     <span>
       <img style="position:relative;"
@@ -494,14 +503,25 @@
         <p>Special Olympics is a tax exempt 501(c)3 nonprofit organization. Special Olympics Identification Number (EIN) is 52-0889518.</p>
       </div>
     </footer>
+  </div>
+</div>
     <!-- GO TO TOP BUTTON-->
      <button  onclick="scrollToTop(600)" id="myBtn" title="Go to top"><img src="images/totop.png"></button> 
     <!--END OF GO TO TOP BUTTOn-->
 
 
 
-  </div>
+  
+
   <!--END OF FOOTER-->
+  
+
+
+
+
+
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="index.js" type="text/javascript"></script>
   <script src="https://use.fontawesome.com/576f6a076e.js"></script>
