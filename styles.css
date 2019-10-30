@@ -65,7 +65,11 @@
     margin-left: 1.2rem;
   }
 }
-
+@media only screen and (max-width:420px) {
+.logo{
+  width:15rem;
+}
+}
 /* DROPDOWN START */
 .dropdown {
   height: 58px;
