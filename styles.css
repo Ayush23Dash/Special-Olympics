@@ -127,6 +127,11 @@
   }
 }
 
+@media only screen and (max-width:500px) {
+    .carousel-inner-div{
+      height: auto;
+    }
+}
 /* CAROUSELS INNER DIV END */
 /* CAROUSELS END*/
 /* STAT CIRCLES START*/
