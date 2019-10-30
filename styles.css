@@ -67,7 +67,11 @@
   background-color: #ED1C24;
 }
 
-
+@media only screen and (max-width:400px) {
+  .logo{
+    width:12rem;
+  }
+}
 
 /* DROPDOWN START */
 .dropdown {
@@ -77,7 +81,7 @@
 
 }
 @media only screen and (max-width: 599px) {
- 
+
  .dropdown:hover{
   margin-bottom:11rem;
     }
@@ -298,7 +302,7 @@ input[type="radio"] {
 /* ORGANISATION CARDS END */
 /* STATISTICAL DATA */
 .statistics {
-  background-image: url('https://dotorg.brightspotcdn.com/dims4/default/59f6b15/2147483647/strip/true/crop/1440x720+0+17/resize/1600x800!/format/jpg/quality/90/?url=https%3A%2F%2Fdotorg.brightspotcdn.com%2Fac%2F2e%2F63e9f5a4488595d46b73b5e4dd99%2Fspecial-olympic-y-r-approved-final-hq-round-3-page-12.png'); 
+  background-image: url('https://dotorg.brightspotcdn.com/dims4/default/59f6b15/2147483647/strip/true/crop/1440x720+0+17/resize/1600x800!/format/jpg/quality/90/?url=https%3A%2F%2Fdotorg.brightspotcdn.com%2Fac%2F2e%2F63e9f5a4488595d46b73b5e4dd99%2Fspecial-olympic-y-r-approved-final-hq-round-3-page-12.png');
   background-size: cover;
  padding:20px;
 }
@@ -310,12 +314,12 @@ input[type="radio"] {
   font-size: 2.25rem;
   color: #fff;
   font-family: 'ubuntu';
- 
+
 }
 
 
 .stat-head {
-  
+
   font-weight: bold;
   font-family: 'montserrat';
 }
@@ -378,7 +382,7 @@ input[type="radio"] {
    align-items: center;
   padding:auto;
 
- 
+
 }
 
 .stat-rectangles2 {
@@ -387,7 +391,7 @@ input[type="radio"] {
   justify-content: center;
   align-items: center;
   padding:auto;
- 
+
 }
 
 
@@ -399,13 +403,13 @@ input[type="radio"] {
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
-  outline: none; 
+  outline: none;
   /* Remove outline */
    /* Set a background color */
    background:rgba(256, 256, 256,0);
    /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  
+
 }
 #myBtn img{
   border-radius:20px;
