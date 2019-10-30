@@ -1,4 +1,4 @@
-myhover=document.getElementByClass(".dropdown")
+
 mybutton = document.getElementById("myBtn");
 
 
@@ -23,11 +23,3 @@ function scrollToTop(scrollDuration) {
         else clearInterval(scrollInterval); 
     },15);
 }
-function displacednavitem(){
-myhover.style.margin="20px";
-
-
-
-
-}
-myhover.addEventListener(onmouseover,function displacednavitem);
