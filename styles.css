@@ -1,6 +1,6 @@
 /* NAVBAR START */
 .logo {
-  width: 16rem;
+  width: 14rem;
   height: 3.6rem;
   margin: 0 1.2rem;
   display: block;
@@ -35,6 +35,7 @@
 }
 
 .form-inline {
+  display:inline-block;
   margin-left: 1.5rem;
 }
 
@@ -51,7 +52,7 @@
 }
 
 .btn {
-  margin-left: 9rem;
+  margin-left: 2rem;
   margin-right: 0;
   font-family: verdana;
   padding: 0.8rem 2.2rem;
@@ -60,26 +61,59 @@
   background-color: #ED1C24;
 }
 
-@media only screen and (max-width: 992px) {
-  .btn {
-    margin-left: 1.2rem;
-  }
-}
-@media only screen and (max-width:400px) {
-.logo{
-  width:12rem;
-}
-}
+
+
 /* DROPDOWN START */
 .dropdown {
   height: 58px;
+  position:relative;
+
 }
+@media only screen and (max-width: 599px) {
+ 
+ .dropdown:hover{
+  margin-bottom:11rem;
+    }
+ .dropdown-menu {
+  background: #fff;
+  box-shadow: inset 0 7px 10px -7px rgba(0, 0, 0, .5), 0 7px 10px -7px rgba(0, 0, 0, .5), 7px 0 10px -7px rgba(0, 0, 0, .5), -7px 0 10px -7px rgba(0, 0, 0, .5);
+ padding: 12px justify;
+ transition: opacity .5s;
+float:left;
+position:absolute;
+left:30px;
+
+}
+
+.dropdown-item {
+  font-size: 1.0rem;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display:inline-block;
+}
+
+.dropdown-item:hover {
+  color: #ED1C24;
+}
+.form-inline{
+  display:inline-block;
+  margin:auto;
+}
+.btn{
+  margin:justify;
+  padding:justify;
+}
+}
+
+@media screen and (min-width: 799px) {
 
 .dropdown-menu {
   background: #fff;
   box-shadow: inset 0 7px 10px -7px rgba(0, 0, 0, .5), 0 7px 10px -7px rgba(0, 0, 0, .5), 7px 0 10px -7px rgba(0, 0, 0, .5), -7px 0 10px -7px rgba(0, 0, 0, .5);
   left: -15px;
-  padding: 15px 25px;
+  padding: 15px 20px;
+
   position: absolute;
   transition: opacity .5s;
   top: 58px;
@@ -95,7 +129,7 @@
 
 .dropdown-item:hover {
   color: #ED1C24;
-}
+}}
 
 /*DROPDOWN END*/
 /* NAVBAR END */
@@ -127,11 +161,6 @@
   }
 }
 
-@media only screen and (max-width:500px) {
-    .carousel-inner-div{
-      height: auto;
-    }
-}
 /* CAROUSELS INNER DIV END */
 /* CAROUSELS END*/
 /* STAT CIRCLES START*/
@@ -265,29 +294,24 @@ input[type="radio"] {
 /* ORGANISATION CARDS END */
 /* STATISTICAL DATA */
 .statistics {
-  position: relative;
+  background-image: url('https://dotorg.brightspotcdn.com/dims4/default/59f6b15/2147483647/strip/true/crop/1440x720+0+17/resize/1600x800!/format/jpg/quality/90/?url=https%3A%2F%2Fdotorg.brightspotcdn.com%2Fac%2F2e%2F63e9f5a4488595d46b73b5e4dd99%2Fspecial-olympic-y-r-approved-final-hq-round-3-page-12.png'); 
+  background-size: cover;
+ padding:30px;
 }
 
-.statistics img {
-  width: 100%;
-  height:auto;
-}
+
 
 .stat-heading {
   text-align: center;
   font-size: 2.25rem;
   color: #fff;
   font-family: 'ubuntu';
-  position: relative;
-}
-.col-sm-6{
-  margin:10px;
+ 
 }
 
+
 .stat-head {
-  margin-left: 43%;
-  position: absolute;
-  top: 6rem;
+  
   font-weight: bold;
   font-family: 'montserrat';
 }
@@ -305,54 +329,34 @@ input[type="radio"] {
 }
 
 .stat1, .stat2, .stat3, .stat4, .stat5, .stat6 {
+  padding:20px;
   background-color: #fff;
-  padding: 2rem 4rem;
   width: 20rem;
-  height: 10rem;
   text-align: center;
 }
 
+.stat-rectangles1 .col-sm-12{
+  margin-bottom:15px;
+}
+.stat-rectangles2 .col-sm-12{
+  margin-bottom:15px;
+}
+
 .stat-rectangles1 {
-  position: absolute;
-  top: 24%;
+  margin:40px;
   display: flex;
   justify-content: center;
-  margin-left: 20%;
+ 
 }
 
 .stat-rectangles2 {
-
-  position: absolute;
-  top: 60%;
+   margin:40px;
   display: flex;
   justify-content: center;
-  margin-left: 20%;
+ 
 }
 
-@media only screen and (max-width: 992px) {
-  .stat-head {
-    margin-left: 40%;
-    top: 10%;
-  }
 
-  .stat1, .stat2, .stat3, .stat4, .stat5, .stat6 {
-    padding: 1rem;
-    width: 13rem;
-    height: 8rem;
-  }
-
-  .stat-rectangles1 {
-    position: absolute;
-    top: 25%;
-    margin-left: 14%;
-  }
-
-  .stat-rectangles2 {
-    position: absolute;
-    top: 65%;
-    margin-left: 14%;
-  }
-}
 /*GO TO TOP BUTTON*/
 #myBtn {
   display: none; /* Hidden by default */
