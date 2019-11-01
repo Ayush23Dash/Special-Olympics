@@ -281,7 +281,7 @@ input[type="radio"] {
 }
 
 .card h5 {
-  text-align:left;
+  text-align:center;
   color: #ED1C24;
   font-weight: bold;
 }
@@ -307,19 +307,14 @@ input[type="radio"] {
  padding:20px;
 }
 
-
-
 .stat-heading {
   text-align: center;
   font-size: 2.25rem;
   color: #fff;
   font-family: 'ubuntu';
-
 }
 
-
 .stat-head {
-
   font-weight: bold;
   font-family: 'montserrat';
 }
