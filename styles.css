@@ -374,10 +374,10 @@ input[type="radio"] {
 }
 }
 
-@media (max-width: 599px) and (min-width: 361px){
+/*@media (max-width: 599px) and (min-width: 361px){
   .statistics{
     width:100vw;
-  }
+  }*/
   .stat1, .stat2, .stat3, .stat4, .stat5, .stat6 {
   padding:18px;
   margin:12px;
