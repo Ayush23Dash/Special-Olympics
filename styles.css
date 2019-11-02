@@ -281,6 +281,11 @@ input[type="radio"] {
   margin: 0 10px 0 10px;
 }
 
+@media only screen and (max-width:360px) {
+  .donate-img{
+    width: 100%;
+  }
+}
 /* DONATION FORM END */
 /* ORGANISATION CARDS */
 .org-cards {
