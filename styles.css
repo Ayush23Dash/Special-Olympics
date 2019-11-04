@@ -293,12 +293,40 @@ input[type="radio"] {
   background-color: #e9e9e6;
   text-align: center;
 }
+.sub-heading{
+
+      font-weight: 300;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    color: #5e5e5e;
+    font-size: 22px;
+    padding: 0 30px 40px;
+    line-height: 1.36;
+}
+.page {
+  display: none;
+}
+.page-active {
+  display: block;
+}
 
 .org-cards>h3 {
   margin: 20px;
   letter-spacing: 1px;
   font-family: cursive;
   font-weight: bold;
+}
+.org-cards .col-lg-4{
+  margin-bottom: 20px;
+}
+.card{
+  height:auto;
+  transition: all 1s;
+ 
+}
+.card:hover{
+ transform:scale(1.1);
 }
 
 .card1, .card2, .card3 {
@@ -322,6 +350,18 @@ input[type="radio"] {
     display: flex;
     justify-content: center;
   }
+}
+
+.top-heading{
+  color:white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  position:absolute;
+  top:180px;
+  left:430px;
+margin:2.4rem 3.4rem;
+  text-align: center;
+  font-family: verdana;
 }
 
 /* ORGANISATION CARDS END */
