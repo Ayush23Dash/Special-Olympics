@@ -1,2 +1,2 @@
 # Special-Olympics
-A demo website for Special Olympics Delhi
+A demo website for Special Olympics Delhi.
